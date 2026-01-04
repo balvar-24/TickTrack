@@ -1,0 +1,21 @@
+.shortcut-bar {
+    position: fixed;
+    top: 48px;
+    left: 0;
+    height: calc(100vh - 60px);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+    background-color: #242424;
+    border-right: #555 2px solid;
+    padding: 10px;
+}
+
+.shortcut-bar button {
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border-radius: 10px;
+}
