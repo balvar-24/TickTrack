@@ -6,7 +6,7 @@
     width: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start
+    justify-content: flex-start;
     background-color: #242424;
     border-right: #555 2px solid;
     padding: 10px;
