@@ -1,16 +1,16 @@
-import './Dashboard.css';
+import './Changes.css';
 import '../App.css';
 import NavBarDash from '../components/NavBarDash.jsx';
 import ShortcutBar from '../components/ShortcutBar.jsx';
 
-export default function Dashboard() {
+export default function Changes() {
     return (
         
-        <div className="dashboard-container">
+        <div className="changes-container">
             <NavBarDash />
             <ShortcutBar />
-            <div className="dashboard-content">
-                <h1>Welcome to the Dashboard</h1>
+            <div className="changes-content">
+                <h1>Changes Page</h1>
             </div>
         </div>
     );
