@@ -4,7 +4,7 @@ import './Login.css';
 import '../App.css';
 import NavBarLogin from '../components/NavBarLogin.jsx';
 
-function Login() {
+export default function Login() {
   const navigate = useNavigate();
 
   const [username, setUsername] = useState("");
@@ -65,6 +65,3 @@ function Login() {
     </>
   )
 }
-
-
-export default Login
