@@ -1,4 +1,4 @@
-.NavigationBar {
+.NavigationBar{
   position: fixed;
   padding: 0;
   left: 0;
@@ -10,4 +10,14 @@
   display: flex;
   align-items: center;
   background-color: #555;
+}
+.Navigation{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.Navigation * {
+  cursor: pointer;
 }
