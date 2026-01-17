@@ -1,7 +1,7 @@
 import TickTrackSiteLogo from '/TickTrackSiteLogo.png'
 import './NavBar.css'
 
-function NavBarLogin() {
+export default function NavBarLogin() {
   return (
     <>
       <div className="NavigationBar">
@@ -13,5 +13,3 @@ function NavBarLogin() {
     </>
   )
 }
-
-export default NavBarLogin
